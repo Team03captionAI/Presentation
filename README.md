@@ -9,7 +9,10 @@ Group 03 - System for generating titles from images
      - Zhen Menguan  (staff in database development)  
      - Artur Magomedov  (staff in testing and QA-analyst)  
      - Fiodor Babeliuk  (staff in requirements analysis)  
-     
+
+### Web page:  
+http://192.168.199.88/  
+  
 ## Functional Aspects:  
 
 1) Dataset  
