@@ -33,9 +33,9 @@ Developing of system consist of 5 stages:
   Tools: PyTorch DL Framework + mini-app in Python + Django + Jquery  
   Github repo: finalAppCaptionAI-ml-algorithm [https://github.com/Team03captionAI/finalAppCaptionAI-ml-algorithm]  
   VisionEncoderDecoderModel  
-  ![image](https://github.com/Team03captionAI/Presentation/assets/35493202/553141d4-c7d8-40c9-8e6a-172b8d6cea7e)
-  GPT-2 Tokenizer  
-  ![image](https://github.com/Team03captionAI/Presentation/assets/35493202/d73b7930-96e8-4503-b3f0-546bed5278f3)
+  ![image](https://github.com/Team03captionAI/Presentation/assets/35493202/553141d4-c7d8-40c9-8e6a-172b8d6cea7e)  
+  GPT-2 Tokenizer    
+  ![image](https://github.com/Team03captionAI/Presentation/assets/35493202/d73b7930-96e8-4503-b3f0-546bed5278f3)  
 
 - Module 2: frontend module
   Tools: HTML + CSS + Vue.js  
