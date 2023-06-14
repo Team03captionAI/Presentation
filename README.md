@@ -2,17 +2,14 @@
 
 ## Students
 Group 03 - System for generating titles from images  
-     - Holger Espinola  
-     - Van Syiui  
-     - Li Siyuan  
-     - Zhen Menguan  
-     - Fiodor Babeliuk  
-     - Artur Magomedov  
-
-## Deployement:  
-  Full-repository of appTIGenAI_v8.0  
-  https://mega.nz/folder/RtFAWTLJ#drYIXBrhT2GmgQmBNQAwCA  
-
+1st course - Program of Master degree in AI & Machine Learning - Polytech University    
+     - Li Siyuan  (coordinator and software development in java)  
+     - Holger Espinola  (staff in machine learning engineer + python backend)  
+     - Van Syiui  (staff in devops and infrastructure/software deployment)       
+     - Zhen Menguan  (staff in database development)  
+     - Artur Magomedov  (staff in testing and QA-analyst)  
+     - Fiodor Babeliuk  (staff in requirements analysis)  
+     
 ## Functional Aspects:  
 
 1) Dataset  
@@ -25,25 +22,42 @@ Link: https://huggingface.co/docs/transformers/v4.29.1/en/model_doc/vision-encod
 
 ![vision-encoder-decoder](https://github.com/HoltechHard/app_captionAI/assets/35493202/73fe6cc2-2741-4b20-838d-ec5e05821338)
 
-
-Comment:  
-The Visual Encoder-Decoder Model can be used to initialize an image-to-text model with:  
-Step 01: Pretrained transformer-based vision model ==> this is the encoder (ViT)  
-Step 02: Pretrained language model ==> this is the decoder (GPT-2)  
+ML-Architecture:  
+The Visual Encoder-Decoder Model architecture of DL-model to generate captions from images consists of 2 blocks:  
+Block 01: Pretrained transformer-based vision model ==> this is the encoder (ViT)  
+Block 02: Pretrained language model ==> this is the decoder (GPT-2)  
 
 3) Software Application  
-Will consist of 5 stages:  
-- Module 1: information system to upload and show images  
-  Tools: Python + Django + Jquery + Frontend (not defined)  
-- Module 2: software system integrated to AI model Encoder-Decoder Transformer ViT + GPT-2  
-  Tools: PyTorch DL Framework + App 
-- Module 3: module client - server (for 1 client)  
-- Module 4: module message - queue  
-- Module 5: module task - queue  
+Developing of system consist of 5 stages:  
+- Module 1: software system integrated to AI model Encoder-Decoder Transformer ViT + GPT-2  
+  Tools: PyTorch DL Framework + mini-app in Python + Django + Jquery  
+  Github repo: finalAppCaptionAI-ml-algorithm [https://github.com/Team03captionAI/finalAppCaptionAI-ml-algorithm]  
+  VisionEncoderDecoderModel  
+  ![image](https://github.com/Team03captionAI/Presentation/assets/35493202/553141d4-c7d8-40c9-8e6a-172b8d6cea7e)
+  GPT-2 Tokenizer  
+  ![image](https://github.com/Team03captionAI/Presentation/assets/35493202/d73b7930-96e8-4503-b3f0-546bed5278f3)
 
-4) Documentation  
-  (Still undefined)  
-  Will be necessary read documents inside of folder "papers" and compress all the technical aspects involved  
-  in out project in this related with the 2 aspects: Dataset and DL Model and for the 3rd aspect: Software Application  
-  will be necessary apply some Software Methodology for documentation (RUP, SCRUM, Agile Methods, etc...)  
+- Module 2: frontend module
+  Tools: HTML + CSS + Vue.js  
+  Github repo: finalAppCaptionAI-frontend [https://github.com/Team03captionAI/finalAppCaptionAI-frontend]   
+  Main 
+  ![image](https://github.com/Team03captionAI/Presentation/assets/35493202/c08b2281-88c7-4d9b-818a-ebf6b82a2e6d)  
+  
+- Module 3: database module
+  Physical database model:  
+  ![database_model](https://github.com/Team03captionAI/Presentation/assets/35493202/3f48ef5d-228b-4c7d-bc37-85b8e3e99d10)
+  Tools: MySQL  
+  
+- Module 4: backend module  
+  Tools: Java Spring Boot  
+  Github repo: finalAppCaptionAI-java-backend [https://github.com/Team03captionAI/finalAppCaptionAI-java-backend]  
+  
+- Module 5: software deployment  
+  Tools: Docker + SPbPU Cloud Server   
+  Requirements:  
+  * Django==4.2.2  
+  * Pillow==9.5.0  
+  * torch==2.0.0  
+  * transformers==4.30.1  
+
   
