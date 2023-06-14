@@ -44,7 +44,7 @@ Developing of system consist of 5 stages:
   ![image](https://github.com/Team03captionAI/Presentation/assets/35493202/d73b7930-96e8-4503-b3f0-546bed5278f3)  
 
 - Stage 2: frontend module
-  Tools: HTML + CSS + Vue.js  
+  Tools: HTML + Javascript + Vue  
   Github repo: finalAppCaptionAI-frontend [https://github.com/Team03captionAI/finalAppCaptionAI-frontend]   
   
   Main web page:  
