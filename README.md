@@ -60,11 +60,11 @@ Developing of system consist of 5 stages:
   Tools: MySQL  
   
 - Stage 4: backend module  
-  Tools: Java Spring Boot  
+  Tools: Java Spring Boot + Spring Security + myBatis 
   Github repo: finalAppCaptionAI-java-backend [https://github.com/Team03captionAI/finalAppCaptionAI-java-backend]  
   
 - Stage 5: software deployment  
-  Tools: Docker + SPbPU Cloud Server   
+  Tools: Docker + SPbPU Cloud Server + Nginx  
   Requirements:  
   * Django==4.2.2  
   * Pillow==9.5.0  
