@@ -32,7 +32,7 @@ Block 02: Pretrained language model ==> this is the decoder (GPT-2)
 
 3) Software Application  
 Developing of system consist of 5 stages:  
-- Module 1: software system integrated to AI model Encoder-Decoder Transformer ViT + GPT-2  
+- Stage 1: software system integrated to AI model Encoder-Decoder Transformer ViT + GPT-2  
   Tools: PyTorch DL Framework + mini-app in Python + Django + Jquery  
   Github repo: finalAppCaptionAI-ml-algorithm [https://github.com/Team03captionAI/finalAppCaptionAI-ml-algorithm]  
   VisionEncoderDecoderModel  
@@ -43,7 +43,7 @@ Developing of system consist of 5 stages:
     
   ![image](https://github.com/Team03captionAI/Presentation/assets/35493202/d73b7930-96e8-4503-b3f0-546bed5278f3)  
 
-- Module 2: frontend module
+- Stage 2: frontend module
   Tools: HTML + CSS + Vue.js  
   Github repo: finalAppCaptionAI-frontend [https://github.com/Team03captionAI/finalAppCaptionAI-frontend]   
   
@@ -51,7 +51,7 @@ Developing of system consist of 5 stages:
     
   ![image](https://github.com/Team03captionAI/Presentation/assets/35493202/c08b2281-88c7-4d9b-818a-ebf6b82a2e6d)  
   
-- Module 3: database module
+- Stage 3: database module
    
   Physical database model:  
     
@@ -59,11 +59,11 @@ Developing of system consist of 5 stages:
     
   Tools: MySQL  
   
-- Module 4: backend module  
+- Stage 4: backend module  
   Tools: Java Spring Boot  
   Github repo: finalAppCaptionAI-java-backend [https://github.com/Team03captionAI/finalAppCaptionAI-java-backend]  
   
-- Module 5: software deployment  
+- Stage 5: software deployment  
   Tools: Docker + SPbPU Cloud Server   
   Requirements:  
   * Django==4.2.2  
