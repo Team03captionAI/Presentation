@@ -3,7 +3,7 @@
 ## Students
 Group 03 - System for generating titles from images  
 1st course - Program of Master degree in AI & Machine Learning - Polytech University    
-     - Li Siyuan  (coordinator and software development in java)  
+     - Li Siyuan  (coordinator and full stack developer)  
      - Holger Espinola  (staff in machine learning engineer + python backend)  
      - Van Syiui  (staff in devops and infrastructure/software deployment)       
      - Zhen Menguan  (staff in database development)  
@@ -23,7 +23,7 @@ https://cocodataset.org/#home
 Visual Encoder-Decoder Model (ViT + GPT-2)  
 Link: https://huggingface.co/docs/transformers/v4.29.1/en/model_doc/vision-encoder-decoder#transformers.VisionEncoderDecoderModel  
 
-![vision-encoder-decoder](https://github.com/HoltechHard/app_captionAI/assets/35493202/73fe6cc2-2741-4b20-838d-ec5e05821338)
+![vision-encoder-decoder](https://github.com/HoltechHard/app_captionAI/assets/35493202/73fe6cc2-2741-4b20-838d-ec5e05821338)  
 
 ML-Architecture:  
 The Visual Encoder-Decoder Model architecture of DL-model to generate captions from images consists of 2 blocks:  
@@ -43,7 +43,7 @@ Developing of system consist of 5 stages:
     
   ![image](https://github.com/Team03captionAI/Presentation/assets/35493202/d73b7930-96e8-4503-b3f0-546bed5278f3)  
 
-- Stage 2: frontend module
+- Stage 2: frontend module  
   Tools: HTML + Javascript + Vue  
   Github repo: finalAppCaptionAI-frontend [https://github.com/Team03captionAI/finalAppCaptionAI-frontend]   
   
@@ -51,25 +51,27 @@ Developing of system consist of 5 stages:
     
   ![image](https://github.com/Team03captionAI/Presentation/assets/35493202/c08b2281-88c7-4d9b-818a-ebf6b82a2e6d)  
   
-- Stage 3: database module
+- Stage 3: database module  
    
   Physical database model:  
     
-  ![database_model](https://github.com/Team03captionAI/Presentation/assets/35493202/3f48ef5d-228b-4c7d-bc37-85b8e3e99d10)
+  ![database_model](https://github.com/Team03captionAI/Presentation/assets/35493202/3f48ef5d-228b-4c7d-bc37-85b8e3e99d10)  
     
   Tools: MySQL  
   
 - Stage 4: backend module  
-  Tools: Java Spring Boot + Spring Security + myBatis 
+  Tools: Java Spring Boot + Spring Security + myBatis   
   Github repo: finalAppCaptionAI-java-backend [https://github.com/Team03captionAI/finalAppCaptionAI-java-backend]  
   
 - Stage 5: software deployment  
   Tools: Docker + SPbPU Cloud Server + Nginx  
-  The front-end, back-end and algorithm of the project are separate parts. In order to realize the reuse and rapid deployment of the algorithm, a corresponding docker image was made, which can be found on the link [docker hub](https://hub.docker.com/repository/docker/wsyconan/caption_ai/general).
+  * The front-end, back-end and algorithm of the project are separate parts. 
+  * In order to realize the reuse and rapid deployment of the algorithm,  
+  a corresponding docker image was made, which can be found on the link [docker hub](https://hub.docker.com/repository/docker/wsyconan/caption_ai/general).  
 
-     The default deployment address of this image is 0.0.0.0:5000.
+  * The default deployment address of this image is 0.0.0.0:5000.
 
-     We use the algorithm through http requests, and the format is:
+  * We use the algorithm through http requests, and the format is:
 
      Request
 
