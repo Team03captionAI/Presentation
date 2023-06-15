@@ -65,10 +65,37 @@ Developing of system consist of 5 stages:
   
 - Stage 5: software deployment  
   Tools: Docker + SPbPU Cloud Server + Nginx  
-  Requirements:  
-  * Django==4.2.2  
-  * Pillow==9.5.0  
-  * torch==2.0.0  
-  * transformers==4.30.1  
+  The front-end, back-end and algorithm of the project are separate parts. In order to realize the reuse and rapid deployment of the algorithm, a corresponding docker image was made, which can be found on the link [docker hub](https://hub.docker.com/repository/docker/wsyconan/caption_ai/general).
 
+     The default deployment address of this image is 0.0.0.0:5000.
+
+     We use the algorithm through http requests, and the format is:
+
+     Request
+
+     Method：POST
+
+     HEADER：
+
+     Content-Type: multipart/form-data X-CSRFToken: xxxxxxxx
+
+     BODY:
+
+     Content-Disposition: form-data; name="images"; filename="image_name.png"
+
+     Content-Type: image
+
+     [image data]
+
+     Response
+
+     If the prediction success, the response will be：
+
+     HTTP/1.1 200 OK
+
+     {
+
+     "image_name": "caption"
+
+     }
   
