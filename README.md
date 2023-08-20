@@ -4,7 +4,7 @@
 Group 03 - System for generating titles from images  
 1st course - Program of Master degree in AI & Machine Learning - Polytech University    
      - Li Siyuan  (coordinator and full stack developer)  
-     - Holger Espinola  (staff in machine learning engineer + python backend)  
+     - Holger Espinola  (coordinator in machine learning engineer + python backend)  
      - Van Syiui  (staff in devops and infrastructure/software deployment)       
      - Zhen Menguan  (staff in database development)  
      - Artur Magomedov  (staff in testing and QA-analyst)  
